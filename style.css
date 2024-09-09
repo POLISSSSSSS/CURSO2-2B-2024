@@ -16,12 +16,12 @@ body {
 }
 
 * {
-    margin: 0;
-    padding: 0;
+    margin: 0;#tamanho de margem
+    padding: 0;#espaçamento interno
 }
 
 .principal {
-    background-image: url("Background.png");
+    background-image: url("Background.png");# imagem como plano de fundo
     background-repeat: no-repeat;#imagem repetir apenas uma vez
     background-size: contain;#tamanho do plano de fundo
     align-items: center;#alinhamento de elementos
@@ -29,14 +29,14 @@ body {
 }
 
 .container {
-    height: 100vh;
-    display: grid;
-    grid-template-columns: 50% 50%;
+    height: 100vh;#altura
+    display: grid;#organiza os elementos
+    grid-template-columns: 50% 50%;#duas colunas de 50%
 }
 
 .container__botao {
     background-color: var(--botao-azul);
-    border-radius: 5px;
+    border-radius: 5px;#cantos arredondados
     padding: 1em;
     color: var(--branco-principal);
     display: block;
