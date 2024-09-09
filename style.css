@@ -22,10 +22,10 @@ body {
 
 .principal {
     background-image: url("Background.png");
-    background-repeat: no-repeat;
-    background-size: contain;
-    align-items: center;
-    text-align: center;
+    background-repeat: no-repeat;#imagem repetir apenas uma vez
+    background-size: contain;#tamanho do plano de fundo
+    align-items: center;#alinhamento de elementos
+    text-align: center;#alinhamento de textos
 }
 
 .container {
