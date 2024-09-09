@@ -25,7 +25,7 @@ body {
     background-repeat: no-repeat;#imagem repetir apenas uma vez
     background-size: contain;#tamanho do plano de fundo
     align-items: center;#alinhamento de elementos
-    text-align: center;#alinhamento de textos
+    text-align: center;#alinhamento de textos<!--acrescentar um parágrafo contendo a frase rodape__texto-->
 }
 
 .container {
@@ -37,11 +37,11 @@ body {
 .container__botao {
     background-color: var(--botao-azul);
     border-radius: 5px;#cantos arredondados
-    padding: 1em;
-    color: var(--branco-principal);
-    display: block;
-    text-decoration: none;
-    margin-bottom: 1em;
+    padding: 1em;#espaçamento interno<!--acrescentar um parágrafo contendo a frase rodape__texto-->
+    color: var(--branco-principal);#cor de fonte
+    display: block;# como elemento vai ser disposto
+    text-decoration: none;#reseta decoração do textos
+    margin-bottom: 1em;#margem inferior
 }
 
 .botao_secundario {
