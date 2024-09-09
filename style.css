@@ -16,32 +16,32 @@ body {
 }
 
 * {
-    margin: 0;#tamanho de margem
-    padding: 0;#espaçamento interno
+    margin: 0;/*#tamanho de margem*/
+    padding: 0;/*#espaçamento interno*/
 }
 
 .principal {
-    background-image: url("Background.png");# imagem como plano de fundo
-    background-repeat: no-repeat;#imagem repetir apenas uma vez
-    background-size: contain;#tamanho do plano de fundo
-    align-items: center;#alinhamento de elementos
-    text-align: center;#alinhamento de textos<!--acrescentar um parágrafo contendo a frase rodape__texto-->
+    background-image: url("Background.png");/*# imagem como plano de fundo*/
+    background-repeat: no-repeat;/*#imagem repetir apenas uma vez*/
+    background-size: contain;/*#tamanho do plano de fundo*/
+    align-items: center;/*#alinhamento de elementos*/
+    text-align: center;/*#alinhamento de textos<!--acrescentar um parágrafo contendo a frase rodape__texto-->*/
 }
 
 .container {
-    height: 100vh;#altura
-    display: grid;#organiza os elementos
-    grid-template-columns: 50% 50%;#duas colunas de 50%
+    height: 100vh;/*#altura*/
+    display: grid;/*#organiza os elementos*/
+    grid-template-columns: 50% 50%;/*#duas colunas de 50%*/
 }
 
 .container__botao {
     background-color: var(--botao-azul);
-    border-radius: 5px;#cantos arredondados
-    padding: 1em;#espaçamento interno<!--acrescentar um parágrafo contendo a frase rodape__texto-->
-    color: var(--branco-principal);#cor de fonte
-    display: block;# como elemento vai ser disposto
-    text-decoration: none;#reseta decoração do textos
-    margin-bottom: 1em;#margem inferior
+    border-radius: 5px;/*#cantos arredondados*/
+    padding: 1em;/*#espaçamento interno<!--acrescentar um parágrafo contendo a frase rodape__texto-->*/
+    color: var(--branco-principal);/*#cor de fonte*/
+    display: block;/*# como elemento vai ser disposto*/
+    text-decoration: none;/*#reseta decoração do textos*/
+    margin-bottom: 1em;/*#margem inferior*/
 }
 
 .botao_secundario {
