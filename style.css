@@ -51,7 +51,7 @@ body {
 
 .container__aviso {
     font-size: 12px;
-    color: var(--cinza-secundario);/**/
+    color: var(--cinza-secundario);/*cor da fonte*/
 }
 
 .container__titulo {
@@ -79,12 +79,12 @@ body {
 .descricao__titulo {
     font-weight: 700;
     font-size: 48px;
-    color: var(--branco-principal);/**/
+    color: var(--branco-principal);/*cor da fonte*/
     margin-bottom: 0.1em;
 }
 
 .descricao__texto {
-    color: var(--cinza-secundario);/**/
+    color: var(--cinza-secundario);/*cor da fonte*/
 }
 
 .secundario__botao {
@@ -109,12 +109,12 @@ body {
 
 .dispositivos__titulo {
     font-size: 48px;
-    color: var(--branco-principal);/**/
+    color: var(--branco-principal);/*cor da fonte*/
 }
 
 .lista__item {
     font-size: 32px;
-    color: var(--branco-principal);/**/
+    color: var(--branco-principal);/*cor da fonte*/
 }
 
 .rodape {
@@ -131,25 +131,25 @@ body {
 
 .lista__link a{
     text-decoration: none;
-    color: var(--branco-principal);/**/
+    color: var(--branco-principal);/*cor de fonte*/
     margin-left: 1em;
 }
 
 .rodape__texto {
     margin: 1em 0;
-    color: var(--cinza-secundario);/**/
+    color: var(--cinza-secundario);/*cor de fonte*/
     font-size: 14px;
 }
 
 .lista__link a:hover {
-    color: var(--botao-azul);/**/
+    color: var(--botao-azul);/*cor da fonte*/
 }
 
 .lista__link a:active {
-    color: purple;/**/
+    color: purple;/*cor de fonte*/
 }
 
 .container__botao:hover {
-    background-color: var(--botao-azul-efeito);/**/
-    color: var(--cor-de-fundo);/**
+    background-color: var(--botao-azul-efeito);/*cor de fundo*/
+    color: var(--cor-de-fundo);/*cor de fonte*/
 }
